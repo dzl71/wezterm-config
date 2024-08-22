@@ -14,7 +14,7 @@ config.font_size = 12.4
 ----------------------------
 
 config.color_scheme = 'kanagawabones'
-config.window_background_opacity = 0.70
+config.window_background_opacity = 0.75
 
 -- change some colors in the colorscneme
 local colorscheme_change = {
@@ -22,6 +22,17 @@ local colorscheme_change = {
 	-- do not change the text color inside the seleciton
 	selection_fg = 'none',
 	selection_bg = '#2d4f67',
+	-- the brights and ansi should be a vec of lenght 8
+	brights = {
+		"#838371",
+		"#ec818c",
+		"#9ec967",
+		"#f1c982",
+		"#7bc2df",
+		"#a98fd2",
+		"#7bc2df",
+		"#a8a48d"
+	},
 }
 
 ---------------------------
