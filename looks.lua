@@ -6,7 +6,11 @@ local config = {}
 -- configure the font --
 ------------------------
 
-config.font = wezterm.font("JetBrains Mono Nerd Font")
+config.font = wezterm.font({
+	family = "JetBrains Mono Nerd Font",
+	-- remove ligatures from the font family
+	-- harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
+})
 config.font_size = 12.4
 
 ----------------------------
@@ -14,7 +18,7 @@ config.font_size = 12.4
 ----------------------------
 
 config.color_scheme = 'kanagawabones'
-config.window_background_opacity = 0.75
+config.window_background_opacity = 0.80
 
 -- change some colors in the colorscneme
 local colorscheme_change = {
