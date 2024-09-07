@@ -3,6 +3,8 @@ local wezterm = require 'wezterm'
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
+config.default_prog = { "bash" }
+
 ------------------------------
 -- import utility funcitons --
 ------------------------------
