@@ -9,7 +9,7 @@ config.keys = {
 	},
 	{
 		mods = "SUPER",
-		key = '"',
+		key = '\'',
 		action = wezterm.action.SplitVertical({ domain = 'CurrentPaneDomain' }),
 	},
 	{
