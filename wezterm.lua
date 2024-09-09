@@ -16,10 +16,12 @@ local utils = require("utils")
 ---------------------------------
 
 local looks = require("looks")
+local keybindings = require("keybindings")
 
 -- the modules should not be required from withing the join function
 -- `return utils.join({ require("modname") })` is not allowed
 return utils.join({
 	config,
 	looks,
+	keybindings
 })
