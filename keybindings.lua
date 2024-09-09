@@ -18,7 +18,7 @@ config.keys = {
 		action = wezterm.action.SplitHorizontal({ domain = 'CurrentPaneDomain' }),
 	},
 	{
-		mods = "CTRL|SHIFT",
+		mods = "CTRL|ALT|SHIFT",
 		key = 'A',
 		action = wezterm.action.PaneSelect({
 			mode = "Activate",
