@@ -18,7 +18,7 @@ config.font_size = 12.4
 ----------------------------
 
 config.color_scheme = 'kanagawabones'
-config.window_background_opacity = 0
+config.window_background_opacity = 0.4
 
 -- change some colors in the colorscneme
 local colorscheme_change = {
