@@ -7,7 +7,7 @@ local config = {}
 ------------------------
 
 config.font = wezterm.font({
-	family = "JetBrains Mono Nerd Font",
+	family = "Jet Brains Mono Nerd Font",
 	-- remove ligatures from the font family
 	-- harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
 })
