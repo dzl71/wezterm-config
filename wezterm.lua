@@ -5,6 +5,8 @@ local config = wezterm.config_builder()
 
 config.default_prog = { "bash" }
 
+config.enable_wayland = false
+
 ------------------------------
 -- import utility funcitons --
 ------------------------------
